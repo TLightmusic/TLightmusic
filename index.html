@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tlmusic</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+
+
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <div class="topimg">
+
+       <img src="topimg.jpg" alt="" width="100%" />
+    </div>
+   <div class="song">
+    <a href="https://www.mediafire.com/download/uo2htmw5fbbhx4f"><img src="Img/riseup.jpg" alt="" width="50%"/></a>
+    <br>
+    <a href="https://www.mediafire.com/download/nnl2d4q1jqs9n6b"><img src="Img/despacito.jpg" alt="" width="50%"/></a>
+    <br/>
+    <a href="https://www.mediafire.com/download/224la3qv4j665rb"><img src="Img/beauz.jpg" alt="" width="50%"/></a>
+   <br/>
+ </div>
+   <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+
+  </body>
+</html>
